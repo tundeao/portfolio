@@ -22,7 +22,7 @@ const accentColors = {
   },
   gray: {
     light: { bg: 'bg-gray-800', bgHover: 'hover:bg-gray-900', bgLight: 'bg-gray-200', bgLight2: 'bg-gray-100', text: 'text-gray-800', textDark: 'text-gray-900', border: 'border-gray-400', borderLight: 'border-gray-300', shadow: 'hover:shadow-gray-500/25', gradient: 'from-gray-600 to-gray-800', dot: 'bg-gray-600' },
-    dark: { bg: 'bg-gray-300', bgHover: 'hover:bg-gray-200', bgLight: 'bg-gray-300/20', bgLight2: 'bg-gray-300/10', text: 'text-gray-300', textDark: 'text-gray-200', border: 'border-gray-500', borderLight: 'border-gray-600', shadow: 'hover:shadow-gray-400/25', gradient: 'from-gray-400 to-gray-600', dot: 'bg-gray-400' }
+    dark: { bg: 'bg-gray-950', bgHover: 'hover:bg-gray-200', bgLight: 'bg-gray-600/20', bgLight2: 'bg-gray-500/10', text: 'text-gray-100', textDark: 'text-white', border: 'border-gray-500', borderLight: 'border-gray-600', shadow: 'hover:shadow-gray-400/25', gradient: 'from-gray-400 to-gray-600', dot: 'bg-gray-400' }
   }
 };
 

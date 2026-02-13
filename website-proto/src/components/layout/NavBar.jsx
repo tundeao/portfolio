@@ -16,8 +16,8 @@ export const NavBar = ({ currentPage, setCurrentPage }) => {
   }, []);
 
   const navLinks = [
-    { id: 'main', label: 'Portfolio' },
-    { id: 'life', label: 'Life' },
+    // { id: 'main', label: 'Portfolio' },
+    // { id: 'life', label: 'Life' },
   ];
 
   return (
