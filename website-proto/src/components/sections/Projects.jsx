@@ -16,6 +16,7 @@ export const Projects = () => {
           {projects.map((project, index) => (
             <a 
               key={index}
+              target='_blank'
               href={project.link}
               className={`group rounded-2xl overflow-hidden border transition-all hover:-translate-y-2 hover:shadow-xl ${
                 isDark 

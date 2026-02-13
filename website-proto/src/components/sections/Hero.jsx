@@ -19,7 +19,7 @@ export const Hero = () => {
       <div className={`absolute bottom-20 right-10 w-96 h-96 rounded-full blur-3xl animate-pulse opacity-20 ${colors.bg}`} style={{ animationDelay: '1s' }} />
       
       <div className="relative z-10 text-center">
-        <p className={`${colors.text} font-mono mb-4 tracking-wider`}>Hello, I'm</p>
+        {/* <p className={`${colors.text} font-mono mb-4 tracking-wider`}>Hello, I'm</p> */}
         <h1 className={`text-5xl md:text-7xl font-bold mb-4 ${isDark ? 'text-white' : 'text-gray-900'}`}>
           {personal.name} <span className={colors.text}>{personal.lastName}</span>
         </h1>
