@@ -4,10 +4,10 @@ export const personal = {
     initials: 'TA',
     title: 'Software Engineer & Analyst',
     tagline: 'Building thoughtful solutions at the intersection of data, technology, and user experience.',
-    email: 'your@email.com',
+    email: 'tunde.arabaowoyele@gmail.com',
     social: {
-      github: 'https://github.com/yourusername',
-      linkedin: 'https://linkedin.com/in/yourusername',
+      github: 'https://github.com/tundeao',
+      linkedin: 'https://www.linkedin.com/in/tundeao',
     },
     education: {
       degree: 'B.S. Computer Science',

@@ -5,9 +5,10 @@ export const SocialLinks = ({ links }) => {
   
   return (
     <div className="flex gap-4 justify-center">
-      {links.map(({ icon: Icon, href, label }, index) => (
+      {links.map(({  href, label }, index) => (
         <a 
           key={index} 
+          target='_blank'
           href={href}
           aria-label={label}
           className={`p-3 rounded-full transition-all hover:scale-110 ${

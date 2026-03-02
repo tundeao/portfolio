@@ -49,7 +49,7 @@ export const SettingsDropdown = () => {
             {/* Color Vision Section */}
             <div className={`px-4 py-3 border-t border-b ${isDark ? 'border-gray-700' : 'border-gray-100'}`}>
               <p className={`text-xs font-semibold uppercase tracking-wider flex items-center gap-2 ${isDark ? 'text-gray-400' : 'text-gray-500'}`}>
-                <Eye size={12} /> Color Vision
+                <Eye size={12} /> Color Mode
               </p>
             </div>
             <div className="p-2">
