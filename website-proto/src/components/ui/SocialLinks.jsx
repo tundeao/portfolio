@@ -5,7 +5,7 @@ export const SocialLinks = ({ links }) => {
   
   return (
     <div className="flex gap-4 justify-center">
-      {links.map(({  href, label }, index) => (
+      {links.map(({ icon: Icon, href, label }, index) => (
         <a 
           key={index} 
           target='_blank'
