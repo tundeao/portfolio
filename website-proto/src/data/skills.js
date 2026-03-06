@@ -1,8 +1,8 @@
-import { Code, Globe, Database, Terminal } from 'lucide-react';
+import { Code, Globe, Terminal, BrainCircuit } from 'lucide-react';
 
 export const skills = [
-  { category: 'Languages', items: ['Python', 'JavaScript', 'SQL', 'Java', 'HTML/CSS'], icon: Code },
-  { category: 'Frameworks', items: ['React', 'Node.js', 'Express', 'Tailwind'], icon: Globe },
-  { category: 'Databases', items: ['MongoDB', 'PostgreSQL', 'MySQL'], icon: Database },
-  { category: 'Tools', items: ['Git', 'CI/CD', 'Selenium', 'BeautifulSoup'], icon: Terminal },
+  { category: 'Languages', items: ['Typescript', 'Java', 'Python', 'JavaScript', 'SQL', 'HTML/CSS'], icon: Code },
+  { category: 'Frameworks', items: ['React', 'Node.js', 'Express', 'Tailwind', 'Angular', 'React Native'], icon: Globe },
+  { category: 'Data & Machine Learning', items: ['NumPy', 'Pandas', 'Matplotlib', 'Seaborn', 'Scikit-learn', 'PyTorch'], icon: BrainCircuit },
+  { category: 'Tools & Methodologies', items: ['Git', 'CI/CD', 'Docker', 'Power BI', 'Agile', 'Waterfall', 'Scrum'], icon: Terminal },
 ];
