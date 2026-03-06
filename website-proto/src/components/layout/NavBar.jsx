@@ -31,7 +31,8 @@ export const NavBar = ({ currentPage, setCurrentPage }) => {
       <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
         {/* Logo */}
         <div className={`text-2xl font-bold ${colors.text}`}>
-          {personal.initials}
+            {/* <img src="/public/tundemoji.png" alt="Logo" className="h-12 w-12 rounded-full" /> */}
+            {personal.initials}
         </div>
         
         {/* Desktop Navigation */}

@@ -24,7 +24,17 @@ export const Projects = () => {
                   : `bg-white border-gray-200 hover:${colors.border}`
               }`}
             >
-              <div className={`h-32 bg-gradient-to-br ${colors.gradient} opacity-90 group-hover:opacity-100 transition-opacity`} />
+              {project.image ? (
+                <div className="h-32 overflow-hidden">
+                  <img 
+                    src={project.image} 
+                    alt={project.title}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+              ) : (
+                <div className={`h-32 bg-gradient-to-br ${colors.gradient} opacity-90 group-hover:opacity-100 transition-opacity`} />
+              )}
               <div className="p-6">
                 <h3 className={`font-semibold mb-2 flex items-center gap-2 ${isDark ? 'text-white' : 'text-gray-900'}`}>
                   {project.title}
