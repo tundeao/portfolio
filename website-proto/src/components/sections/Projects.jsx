@@ -33,7 +33,7 @@ export const Projects = () => {
                   />
                 </div>
               ) : (
-                <div className={`h-32 bg-gradient-to-br ${colors.gradient} opacity-90 group-hover:opacity-100 transition-opacity`} />
+                <div className={`h-32 bg-linear-to-br ${colors.gradient} opacity-90 group-hover:opacity-100 transition-opacity`} />
               )}
               <div className="p-6">
                 <h3 className={`font-semibold mb-2 flex items-center gap-2 ${isDark ? 'text-white' : 'text-gray-900'}`}>

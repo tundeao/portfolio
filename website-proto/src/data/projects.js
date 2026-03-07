@@ -8,9 +8,9 @@ export const projects = [
     },
     { 
       title: 'StackOverflow: Reloaded', 
-      description: 'Full-stack Q&A platform with user authentication, voting, and search functionality.', 
+      description: 'Full-stack Q&A platform with user authentication, voting, and search functionality. (Code avilable upon request)', 
       tags: ['React', 'Node.js', 'MongoDB'], 
-      link: '#',
+      link: 'https://neu-se.github.io/CS4530-Spring-2025/assignments/project-deliverable',
       image: '/stackrldlogo.png',
     },
     { 

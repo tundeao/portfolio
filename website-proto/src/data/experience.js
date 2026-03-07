@@ -27,4 +27,12 @@ export const experience = [
       description: 'Provided comprehensive technical support and documentation, managed IT infrastructure, trained staff on new systems, and developed solutions to improve operational efficiency.' ,
       links: [],
     },
+    { 
+      role: 'Study Spaces Building Manager', 
+      company: "Cullinane Hall & Stearns Hall", 
+      location: 'Northeastern University', 
+      period: '2024 - 2025', 
+      description: 'Coordinated building operations using integrated technology platforms, resolved student access and scheduling issues, and maintained inventory records to ensure continuous resource availability.' ,
+      links: [],
+    },
   ];
