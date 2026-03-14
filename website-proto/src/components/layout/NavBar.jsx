@@ -64,13 +64,13 @@ export const NavBar = ({ currentPage, setCurrentPage }) => {
         {/* Mobile Navigation */}
         <div className="flex md:hidden gap-2 items-center">
           <SettingsDropdown />
-          <button 
+          {/* <button 
             className={isDark ? 'text-white' : 'text-gray-800'} 
             onClick={() => setMenuOpen(!menuOpen)}
             aria-label="Toggle menu"
           >
             {menuOpen ? <X size={24} /> : <Menu size={24} />}
-          </button>
+          </button> */}
         </div>
       </div>
       
